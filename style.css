@@ -1,0 +1,142 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+/* banner styles */
+.banner{
+    width: 1300px;
+height: 1000px;
+}
+.banner-content {
+    max-width: 800px;
+    /* text-align: center; */
+    margin-top: 0%;
+    
+
+/* flex-shrink: 0; */
+padding-left: 130px;
+}
+
+.banner-title {
+    font-size: 40PX;
+    font-weight: 600;
+    color: #131313;
+    padding-left: px;
+    padding-right: 250px;
+}
+
+.img {
+    
+    display: flex;
+    padding-right: 500px;
+}
+
+.text-light-gray{
+    /* text-align: center; */
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+padding-right: 350px;
+
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.image1{
+    width: 75%;
+}
+.image2{
+    width: 500px;
+height: 446px;
+flex-shrink: 0;
+}
+.gamer-paragraph {
+    color: #534C64;
+/* text-align: right; */
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+/* padding-right: 100px; */
+
+}
+
+.teams-text{
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    text-align: right;
+    /* padding-right: 100px; */
+}
+.teams-primary{
+text-align: right;
+}
+.teams-container{
+    display: flex;
+
+}
+.teams-content{
+    text-align: right;
+    padding-right: 100px;
+}
+.section-title{
+    text-align: center;
+}
+.text-light-grayy{
+    text-align: center;
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+
+.feature-img img{
+    width: 25%;
+    margin-left:900px;
+}
+
+
+.ten-years-badge{
+    /* position: static; */
+    max-width: 500px;
+    
+}
+
