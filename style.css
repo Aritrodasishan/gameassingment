@@ -1,7 +1,11 @@
-* {
+*  
+{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+    
+
 }
 
 nav {
@@ -27,34 +31,43 @@ nav li a {
 }
 
 
+
 /* banner styles */
 .banner{
-    width: 1300px;
-height: 1000px;
+    /* width: 1300px; */
+/* height: 500px; */
+display: flex;
+/* background-image: url("images/group.png"); */
+background: cover center; 
+justify-content: center;
+align-items: center;
+/* padding: 0px 250px; */
 }
 .banner-content {
-    max-width: 800px;
+    /* max-width: 800px; */
     /* text-align: center; */
-    margin-top: 0%;
+    margin-top: 10%;
     
 
 /* flex-shrink: 0; */
-padding-left: 130px;
+/* padding-left: 130px; */
 }
 
 .banner-title {
     font-size: 40PX;
     font-weight: 600;
     color: #131313;
-    padding-left: px;
-    padding-right: 250px;
+    /* padding-left: px; */
+    /* padding-right: 250px; */
 }
 
-.img {
+.heroimage{
     
-    display: flex;
-    padding-right: 500px;
-}
+    /* /* display: flex; */
+    /* padding-right: 500px; */
+    margin: 0 !important; 
+    padding: 0 !important;
+} 
 
 .text-light-gray{
     /* text-align: center; */
@@ -76,9 +89,10 @@ background-clip: text;
     width: 75%;
 }
 .image2{
-    width: 500px;
-height: 446px;
-flex-shrink: 0;
+    width: 80%;
+/* height: 446px; */
+
+
 }
 .gamer-paragraph {
     color: #534C64;
@@ -107,14 +121,44 @@ text-align: right;
 }
 .teams-container{
     display: flex;
+    padding-top: 5%;
 
 }
 .teams-content{
+    margin-top: 5%;
     text-align: right;
-    padding-right: 100px;
+    padding-right: 80px;
 }
 .section-title{
     text-align: center;
+    padding-left: 200px;
+    /* width: 253.041px; */
+height: 53px;
+flex-shrink: 0;
+
+}
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: gray;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+
+
+}
+.follow h6 {
+    margin-right: 20px;
+}
+.youtubeicon{
+    width: 33px;
+    height: 24px;
+    margin-right: 5px;
+}
+.tictokicon{
+    width: 30px;
+    height: 24px;
 }
 .text-light-grayy{
     text-align: center;
@@ -135,8 +179,114 @@ text-align: right;
 
 
 .ten-years-badge{
-    /* position: static; */
+    
     max-width: 500px;
     
 }
+.image4add{
+    display: flex;
+    padding-left: 50px;
+    gap: 1%;
+    
+}
+.feature-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
+}
+
+.feature-para{
+    /* padding-bottom: 100px; */
+}
+
+.facts-card-container
+    {
+        display: flex;           
+            justify-content: space-around;
+        }
+.facts-card-container .card {
+            border-radius: 50px;
+            border: 1px solid #FF900E;
+            text-align: center;
+            padding: 10px;
+            padding-right: 110px;
+           
+            width: 100px;
+height: 55px;
+
+        }
+        
+.facts{
+    width: 1340px;
+height: 427px;
+flex-shrink: 0;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.facts-card-container2{
+    display: flex;
+    display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+}
+    .facts-card-container2 .card2{
+        border-radius: 50px;
+        border: 1px solid #FF900E;
+        text-align: center;
+        padding: 10px;
+        padding-right: 110px;
+       
+        width: 100px;
+height: 55px;
+
+
+    }
+    .footer-text{
+        display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+text-align: center;
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+.sponsors-img-container img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.footer-text2 { 
+    display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.footerclass{
+    align-items: center;
+    background: #0B0223;
+    width: 1335px;
+height: 500px;
+flex-shrink: 0;
+color: #FFFFFF;
+font-family: Work Sans;
+}
+.flowerstyle{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+}
